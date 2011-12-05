@@ -1,6 +1,6 @@
 ---
 name: Config-KingKong
-version: 0.001
+version: 0.002
 author:
   - 'RaphaÃ«l Pinson <raphink@cpan.org>'
 abstract: KingKong Is Not a Genuine KONfiguration Generator
@@ -11,6 +11,7 @@ resources:
 build_requires:
   Test::More: 0
 requires:
+  Class::Accessor: 0
   File::Basename: 0
   Getopt::Long: 0
   Hash::Merge: 0
@@ -21,7 +22,7 @@ configure_requires:
 provides:
   Config::KingKong:
     file: lib/Config/KingKong.pm
-    version: 0.001
+    version: 0.002
   Config::KingKong::File:
     file: lib/Config/KingKong/File.pm
 generated_by: Module::Build version 0.340201

@@ -5,6 +5,7 @@ WriteMakefile
           'NAME' => 'Config::KingKong',
           'VERSION_FROM' => 'lib/Config/KingKong.pm',
           'PREREQ_PM' => {
+                           'Class::Accessor' => 0,
                            'File::Basename' => 0,
                            'Getopt::Long' => 0,
                            'Hash::Merge' => 0,
